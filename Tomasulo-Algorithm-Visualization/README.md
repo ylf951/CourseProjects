@@ -12,5 +12,5 @@ Tomasulo algorithm is a very important hardware technique for dynamic scheduling
     Write on Common Data Bus to all awaiting units; mark reservation station available.  
 3. Notice
   - In this project, there are only six types of instruction (LD, SD, ADD, DIV, MUL, DIV).
-4. Screenshots
-![]https://raw.githubusercontent.com/ylf951/CourseProjects/master/Tomasulo-Algorithm-Visualization/screenshots/StartPage.png
+4. Screenshots  
+![](https://raw.githubusercontent.com/ylf951/CourseProjects/master/Tomasulo-Algorithm-Visualization/screenshots/StartPage.png)
