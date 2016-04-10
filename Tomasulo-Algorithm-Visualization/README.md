@@ -14,5 +14,14 @@ Tomasulo algorithm is a very important hardware technique for dynamic scheduling
   - In this project, there are only six types of instruction (LD, SD, ADD, DIV, MUL, DIV).
   - Execution time of six types of instructions  
     LD, SD, ADD, DIV -- 2 clocks, MUL -- 10 clocks, DIV -- 40 clocks (You can change the execution time of these six instructions in ```Util.java```)
+  - By default, the number of addition resource in RS is 3, the number of  
+  
+    | Resource Type             | Available Number | Where you can change |
+    | ---                       | ---              | ---                  |
+    | Addition & Subtraction    | 3      | ```addNumber``` in ```ReservationStations.java``` |
+    | Multiplication & Division | 2      | ```mulNumber``` in ```ReservationStations.java``` |
+    | Load                      | 3      | ```loadNumber``` in ```LoadBuffers.java``` |
+    | Store                     | 3      | ```storeNumber``` in ```StoreBuffers.java``` |
+
 4. Demo  
 ![](https://raw.githubusercontent.com/ylf951/CourseProjects/master/Tomasulo-Algorithm-Visualization/screenshots/Processing.gif)
