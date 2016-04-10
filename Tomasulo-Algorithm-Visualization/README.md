@@ -1,4 +1,4 @@
-Tomasulo algorithm is a very important hardware technique for dynamic scheduling of instructions. This project is about the visualization of Tomasolu algorithm so that we can see how this algorithm proceeds and undertand this algorithm better.
+Tomasulo algorithm is a very important hardware technique for dynamic scheduling of instructions. This project is about the visualization of Tomasolu algorithm so that we can see how this algorithm proceeds and make this algorithm easier to understand.
 
 1. Key concepts of Tomasolu algorithm  
   - Tracking dependences to allow instructions execute as soon as operands are available, avoiding RAW hazards.  
