@@ -15,11 +15,5 @@ Tomasulo algorithm is a very important hardware technique for dynamic scheduling
   - Execution time of six types of instructions  
     LD, SD, ADD, DIV -- 2 clocks, MUL -- 10 clocks, DIV -- 40 clocks  
     You can change the execution time of these six instructions in Util.java.
-4. Screenshots  
-  - Initial Page
-![](https://raw.githubusercontent.com/ylf951/CourseProjects/master/Tomasulo-Algorithm-Visualization/screenshots/InitialPage.png)
-  - Processing
-![](https://raw.githubusercontent.com/ylf951/CourseProjects/master/Tomasulo-Algorithm-Visualization/screenshots/ProcessingPage.png)
-  - Finished  
-![](https://raw.githubusercontent.com/ylf951/CourseProjects/master/Tomasulo-Algorithm-Visualization/screenshots/CompletedPage.png)
+4. Example  
 ![](https://raw.githubusercontent.com/ylf951/CourseProjects/master/Tomasulo-Algorithm-Visualization/screenshots/Processing.gif)
