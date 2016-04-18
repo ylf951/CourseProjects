@@ -12,8 +12,17 @@ Tomasulo algorithm is a very important hardware technique for dynamic scheduling
     Write on Common Data Bus to all awaiting units; mark reservation station available.  
 3. Notice
   - In this project, there are only six types of instruction (LD, SD, ADD, DIV, MUL, DIV).
-  - Execution time of six types of instructions  
-    LD, SD, ADD, DIV -- 2 clocks, MUL -- 10 clocks, DIV -- 40 clocks (You can change the execution time of these six instructions in ```Util.java```)
+  - Execution time of six types of instructions.  
+  
+    | Instruction | Execution time|
+    |---|---|
+    |LD|2 clocks|
+    |SD|2 clocks|
+    |ADD/SUB|2 clocks|
+    |MUL|10 clocks|
+    |DIV|40 clocks|
+
+    You can change the execution time of these six instructions in ```Util.java```.
   - By default, the number of each type of resource is set as follows:
   
     | Resource Type             | Available Number | Where you can change |
