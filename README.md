@@ -32,5 +32,7 @@ Tomasulo algorithm is a very important hardware technique for dynamic scheduling
     | Load                      | 3      | ```loadNumber``` in ```LoadBuffers.java``` |
     | Store                     | 3      | ```storeNumber``` in ```StoreBuffers.java``` |
 
-4. Demo  
+4. Procedure  
+![](https://raw.githubusercontent.com/ylf951/CourseProjects/master/Tomasulo-Algorithm-Visualization/screenshots/Procedure.png)
+5. Demo  
 ![](https://raw.githubusercontent.com/ylf951/CourseProjects/master/Tomasulo-Algorithm-Visualization/screenshots/Processing.gif)
